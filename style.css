@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #f3efe6;
+    font-family: 'BioRhyme';
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: all 0.3s linear;
+    
+}
+header{
+    width: 100%;
+    padding: 20px 10px;
+    position: absolute;
+    align-items: center;
+    justify-content:right;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    margin: 0 20px;
+    gap: 20px;
+
+}
+.navbar li a{
+    font-size: x-large;
+    text-decoration: none;
+    color: #9FA8EE;
+    text-transform: uppercase;
+
+}
+.logo{
+    height: auto;
+    width: 100px;
+}
+main{
+    background: scroll;
+    margin: 50px;
+    padding: 100px;
+    position: absolute;
+}
+table{
+    height: 100%;
+    width: 85%;
+    padding:.5em .5em;
+    table-layout:fixed;
+    box-sizing: border-box;
+    border-collapse:separate;
+    border-style: double;
+    color: #30017E;
+}
+td {
+    background-color:#eee;  
+    line-height: 25px;  
+  }
+ 
+  th {
+    background-color:#30017E;
+    color:#f3efe6;
+    line-height: 40px;
+  }
+
+
+.about{
+    margin: 20px;
+    height: fit-content;
+
+}
+.about h1{
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    color: #30017E;
+}
+.about ul{
+    text-align: start;
+    list-style:decimal;
+}
+.about ul li{
+    font-size:large;
+    text-align: justify;
+    margin-bottom: 15px;
+    color: #FB806F;
+
+}
+footer{
+    color: #30017E;
+    text-align: center;
+    position: fixed;
+    margin: 20px;
+    bottom:0;
+}
